@@ -6,7 +6,7 @@ app.use(cors());
 
 app.get('/ping', (req,res) => {
     res.send({
-        message: 'Hello i am vedant'
+        message: 'Hello, GLS'
     });
 });
 app.listen(port, () => {
